@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    background-color: white;
+}
+p {
+    color: blue;
+}
+.c3,.c4 {
+    columns: black;
+    background-color: white;
+}
