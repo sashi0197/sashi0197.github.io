@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0px;
+        }
+        .nav{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+        }
+        .navleft{
+            width: 50px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+        .navright{
+            width: 30px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+        }
+        a:link{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            background-color: aliceblue;
+        }
+        a:active{
+            color: rgb(52, 239, 0);
+        }
+        a:visited{
+            color: grey;
+        }
+        .imgdiv{
+            margin: 50px;
+            width: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .imgdiv img{
+            height: 400px;
+            width: 400px;
+            flex-direction: row;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+        .foot{
+            background-color: #333;
+            height: 80px;
+            display: flex;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 500px;
+            color: aliceblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navleft">
+        <h1>Anass</h1>
+      </div>
+      <div class="navright">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">contract</a>
+        <a href="#">Login</a>
+      </div>
+    </div>
+    <div class="imgdiv">
+      <img src="/part1/bro.jpg"/>
+      <img src="/part1/jansen.jpg"/>
+      <img src="/part1/kushi.jpg"/>
+    </div>
+    <div class="foot">
+        <h3>@Copy rights reserved</h3>
+    </div>
+  </body>
+</html>
