@@ -18,6 +18,11 @@ form {
     border-radius: 5px;
     box-shadow: 5px 5px 6px -7px;
 }
+h1{
+    color: blue;
+    font-size: 60px;
+    font-family: sans-serif;
+}
 
 input[type='text'], input[type='password']{
     display:block;
@@ -55,6 +60,7 @@ button{
     font-family: "Segoe UI";
     font-weight: 400;
 }
+
 
 .line{
     border-top: 1px solid #222;
@@ -99,4 +105,5 @@ p{
     font-size: 20px;
     font-weight: 600;
     word-spacing: 3px;
+    font-family: sans-serif;
 }
