@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <h3 id="txt"></h3>
+    <script>
+      let students = ["Anil", "Bharath", "Sashi", "Ramu"];
+      // document.getElementById("txt").innerHTML=students[3]
+      students.push("Ranjith");
+
+      // document.getElementById("txt").innerHTML=students
+      // document.getElementById("txt").innerHTML=students.pop()
+      // document.getElementById("txt").innerHTML=students
+      // students.unshift("Sashi")
+      students.shift();
+      //document.getElementById("txt").innerHTML = students[0];
+      students.push("Ravi")
+      //splice method is used to add items in the array in the middle
+      students.splice(1,1,"anand","lovethik")
+     // document.getElementById("txt").innerHTML = students
+      //document.getElementById('txt').innerHTML=students.reverse()
+    students.sort()
+    document.getElementById('txt').innerHTML=students[0]
+    </script>
+  </body>
+</html>

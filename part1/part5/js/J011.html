@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* #id1{
+            background-color: yellow;
+        } */
+         .red{
+            background-color: red;
+         }
+    </style>
+  </head>
+  <body>
+    <table border="1px">
+      <tr>
+        <th>Marks</th>
+        <th>Results</th>
+      </tr>
+      <tr id="id1"></tr>
+      <!-- <tr>
+        <td id="one"></td>
+        <td id="two"></td>
+      </tr> -->
+    </table>
+    <script>
+      let marks = prompt("enter your marks");
+      if (marks <= 35) {
+        document.getElementById("id1").innerHTML =
+          "<td>" + marks + "</td>" + "<td>" + "Failed" + "</td>";
+      } else if (marks > 35 && marks <= 50) {
+        document.getElementById("id1").innerHTML =
+          "<td>" + marks + "</td>" + "<td>" + "Passed" + "</td>";
+      } else if (marks > 50 && marks <= 80) {
+        document.getElementById("id1").innerHTML =
+          "<td>" + marks + "</td>" + "<td>" + "Second Class" + "</td>";
+      } else if (marks > 100) {
+        document.getElementById("id1").innerHTML =
+          "<td>" + marks + "</td>" + "<td>" + "Invalid Entry" + "</td>";
+      } else {
+        document.getElementById("id1").innerHTML =
+          "<td>" + marks + "</td>" + "<td>" + "Distinction" + "</td>";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #id1{
+            color: red;
+            border: 1px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <h1 id="id1"></h1>
+    <h2>DOM - Document Object Model</h2>
+
+    <!--     
+    DOM-Document Object Model
+    JavaScript can change all the HTML elements in the page
+JavaScript can change all the HTML attributes in the page
+JavaScript can change all the CSS styles in the page
+JavaScript can remove existing HTML elements and attributes
+JavaScript can add new HTML elements and attributes
+JavaScript can react to all existing HTML events in the page
+JavaScript can create new HTML events in the page
+     -->
+    <div id="id1">JavaScript</div>
+    <script>
+      document.getElementById("id1").innerHTML = "JAVASCRIPT";
+    </script>
+  </body>
+</html>

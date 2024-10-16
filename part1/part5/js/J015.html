@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1px">
+      <tr>
+        <th>Salary</th>
+        <th>Tax Amout</th>
+        <th>Take Home Salary</th>
+      </tr>
+      <tr>
+        <td id="1"></td>
+        <td id="2"></td>
+        <td id="3"></td>
+      </tr>
+    </table>
+    <script>
+        let Salary=prompt("enter your salary")
+        
+        if(Salary<=30000){
+            TaxAmount=0
+        } else if(Salary<=40000){
+           TaxAmount=Salary*(5/100)
+        } else if(Salary>=40000&&Salary<=70000){
+            TaxAmount=Salary*(10/100)
+        } else {
+            TaxAmount=Salary*(15/100)
+        }
+        let TakeHomeSalary=Salary-TaxAmount
+        document.getElementById('1').innerHTML=Salary
+        document.getElementById('2').innerHTML=TaxAmount
+        document.getElementById('3').innerHTML=TakeHomeSalary
+    </script>
+  </body>
+</html>
